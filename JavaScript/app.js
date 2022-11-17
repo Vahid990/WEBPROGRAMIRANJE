@@ -13,9 +13,9 @@ console.log(5+5);
 // 3.Boolean -> logicna vrednost
 // 4.Undefined -> nema vrednost
 // Undefined Primer
-var x;
-console.log(x)
+// var x;
+// console.log(x)
 // 5.Null
 // primer
-var y=null;
-console.log(y)
+// var y=null;
+// console.log(y)
