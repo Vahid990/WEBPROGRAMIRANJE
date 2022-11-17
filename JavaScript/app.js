@@ -19,3 +19,12 @@ console.log(5+5);
 // primer
 // var y=null;
 // console.log(y)
+// symbol -> zastita podataka
+var tekst = "Pozdrav"
+console.log(tekst)
+
+
+var x = 10
+var y = 22
+console.log(x + y);
+alert("HELLO")
