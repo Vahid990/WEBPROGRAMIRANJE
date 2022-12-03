@@ -40,6 +40,7 @@ switch(mesec){
                 console.log("Jun");
                 break;
 }
+console.log(mesec)
 time = 18
 if (time < 12) {
     console.log("dobro jutro")

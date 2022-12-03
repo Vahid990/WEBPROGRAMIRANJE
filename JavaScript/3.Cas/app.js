@@ -32,9 +32,9 @@
 
 // 6.Splice ->Menja niz i vraca selektovane elemente
 // Slice I splice su slicni osim toga sto splice menja nizove
-// const splice = ["Banana","Apple","Orange","lemon","ananas"]
-// splice.splice(1,3,"cherry")
-// console.log(splice)
+const splice = ["Banana","Apple","Orange","lemon","ananas"]
+splice.splice(1,3,"cherry")
+console.log(splice)
 
 //  7.Spread
 const arr = [1,2,3,4,5,6]
