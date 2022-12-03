@@ -1,5 +1,3 @@
-
-
 let broj_prvi = 5
 let broj_drugi = 10
 

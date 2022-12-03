@@ -13,8 +13,7 @@ let userActivity = {
         online:42,
     },
 };
-userActivity.data.online=50
-console.log(userActivity.data.online)
+console.log(userActivity.data.online=50)
 // 3.
 function forecast(arr) {
     return arr.slice(2,4)
