@@ -11,7 +11,6 @@
 function saberi(a,b){
     console.log(a + b)
 }
-
 saberi(5, 10);
 
 
