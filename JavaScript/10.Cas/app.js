@@ -41,3 +41,12 @@ const Retail = companies.filter(function(company){
     }
     });
     console.log(Retail)
+
+// sort
+const sortCompanies = companies.sort(function (a,b){
+    if (a.start > b.start) {
+        return 1;
+    } else {
+        return -1;
+    }
+});

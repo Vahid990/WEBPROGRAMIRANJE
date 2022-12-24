@@ -7,7 +7,7 @@ console.log(5+5);
 
 
 
-// Tipovi Podataka
+// Prosti Tipovi Podataka
 // 1.String -> Neki Text
 // 2.Number -> Broj
 // 3.Boolean -> logicna vrednost
