@@ -10,7 +10,7 @@ const closeWarningBtn = document.querySelector('.btn-warning-remove');
 
 //Load all event listeners ====================
 loadEventListeners();
-
+  
 function loadEventListeners() {
   // Add Todo event
   addTodoBtn.addEventListener('click', addTodoFromInput);
