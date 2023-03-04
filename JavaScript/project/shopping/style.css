@@ -1,0 +1,48 @@
+/* style for the h1 heading */
+h1 {
+    font-size: 2em;
+    text-align: center;
+  }
+  
+  /* style for the form label and input field */
+  label, input[type="text"] {
+    display: block;
+    margin: 10px;
+  }
+  
+  /* style for the form button */
+  button {
+    display: block;
+    margin: 10px;
+    padding: 5px 10px;
+    background-color: #3498db;
+    border: none;
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+  
+  /* style for the list item */
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+    padding: 5px 10px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.2em;
+  }
+  
+  /* style for the remove button */
+  li button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+  

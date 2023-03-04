@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Shopping List</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>My Shopping List</h1>
+    <form>
+      <label for="item">Add Item:</label>
+      <input type="text" id="item" name="item">
+      <button type="button" onclick="addItem()">Add</button>
+    </form>
+    <ul id="list"></ul>
+
+    <script>
+      const shoppingList = []; // create an empty array to hold the list items
+
+      // function to add items to the list
+      function addItem() {
+        const item = document.getElementById("item").value;
+        if (item.trim() !== "") {
+          shoppingList.push(item);
+          displayList();
+          document.getElementById("item").value = "";
+        }
+      }
+
+      // function to remove items from the list
+      function removeItem(index) {
+        shoppingList.splice(index, 1);
+        displayList();
+      }
+
+      // function to display the current list items
+      function displayList() {
+        const list = document.getElementById("list");
+        list.innerHTML = ""; // clear the list
+
+        for (let i = 0; i < shoppingList.length; i++) {
+          const li = document.createElement("li");
+          li.textContent = `${i + 1}. ${shoppingList[i]}`;
+
+          const button = document.createElement("button");
+          button.textContent = "Remove";
+          button.addEventListener("click", () => {
+            removeItem(i);
+          });
+
+          li.appendChild(button);
+          list.appendChild(li);
+        }
+      }
+
+      // initial display of the list
+      displayList();
+    </script>
+  </body>
+</html>
