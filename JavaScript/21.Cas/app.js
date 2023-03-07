@@ -332,7 +332,7 @@
 
 // while (condition) {}
 
-const numberArray = [1, 2, 3, 4, 5, 6, 7, 7, 8, 2, 23, 231, 33, 213, 124, 324];
+// const numberArray = [1, 2, 3, 4, 5, 6, 7, 7, 8, 2, 23, 231, 33, 213, 124, 324];
 // console.log(numberArray.length);
 // console.log(numberArray.filter((el) => el > 10));
 // console.log(numberArray.map((el) => el + 10));
@@ -542,57 +542,57 @@ const numberArray = [1, 2, 3, 4, 5, 6, 7, 7, 8, 2, 23, 231, 33, 213, 124, 324];
 // 2. korak broj okretanja petlje
 // 3. korak unos brojeva
 
-const miniCalculator = () => {
-  const brojOkretanja = prompt("Unesi broj okretanja");
-  let initialValue = 1;
+// const miniCalculator = () => {
+//   const brojOkretanja = prompt("Unesi broj okretanja");
+//   let initialValue = 1;
 
-  for (let i = 0; i < brojOkretanja; i++) {
-    initialValue *= +prompt("Unesi broj");
-  }
+//   for (let i = 0; i < brojOkretanja; i++) {
+//     initialValue *= +prompt("Unesi broj");
+//   }
 
-  alert(initialValue, " je krajnji rezultat");
-};
+//   alert(initialValue, " je krajnji rezultat");
+// };
 
 // miniCalculator();
 
-const ourClass = [
-  {
-    name: "Aldin",
-    lastName: "Rasljanin",
-    age: 52,
-    school: {
-      class: "III-3",
-      name: "tehnicka",
-    },
-  },
-  {
-    name: "Nerma",
-    lastName: "Hot",
-    age: 17,
-    school: {
-      class: "III-3",
-      name: "gimnazija",
-    },
-  },
-  {
-    name: "Seid",
-    lastName: "Alomerovic",
-    age: 25,
-    school: {
-      class: "III-3",
-      name: "tekstilna",
-    },
-  },
-  {
-    name: "Ihsan",
-    lastName: "Curic",
-    age: 23,
-    school: {
-      class: "III-3",
-      name: "ekonomska",
-    },
-  },
-];
+// const ourClass = [
+//   {
+//     name: "Aldin",
+//     lastName: "Rasljanin",
+//     age: 52,
+//     school: {
+//       class: "III-3",
+//       name: "tehnicka",
+//     },
+//   },
+//   {
+//     name: "Nerma",
+//     lastName: "Hot",
+//     age: 17,
+//     school: {
+//       class: "III-3",
+//       name: "gimnazija",
+//     },
+//   },
+//   {
+//     name: "Seid",
+//     lastName: "Alomerovic",
+//     age: 25,
+//     school: {
+//       class: "III-3",
+//       name: "tekstilna",
+//     },
+//   },
+//   {
+//     name: "Ihsan",
+//     lastName: "Curic",
+//     age: 23,
+//     school: {
+//       class: "III-3",
+//       name: "ekonomska",
+//     },
+//   },
+// ];
 
 // console.log(ourClass);
 // console.log(ourClass[2].lastName);
@@ -631,126 +631,126 @@ const ourClass = [
 
 /// VAR LET CONST, https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/functional-programming/use-the-reduce-method-to-analyze-data
 // spread operator
-
-const watchList = [
-  {
-    Title: "Inception",
-    Year: "2010",
-    Rated: "PG-13",
-    Released: "16 Jul 2010",
-    Runtime: "148 min",
-    Genre: "Action, Adventure, Crime",
-    Director: "Christopher Nolan",
-    Writer: "Christopher Nolan",
-    Actors: "Leonardo DiCaprio, Joseph Gordon-Levitt, Elliot Page, Tom Hardy",
-    Plot: "A thief, who steals corporate secrets through use of dream-sharing technology, is given the inverse task of planting an idea into the mind of a CEO.",
-    Language: "English, Japanese, French",
-    Country: "USA, UK",
-    Awards: "Won 4 Oscars. Another 143 wins & 198 nominations.",
-    Poster:
-      "http://ia.media-imdb.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SX300.jpg",
-    Metascore: "74",
-    imdbRating: "8.8",
-    imdbVotes: "1,446,708",
-    imdbID: "tt1375666",
-    Type: "movie",
-    Response: "True",
-  },
-  {
-    Title: "Interstellar",
-    Year: "2014",
-    Rated: "PG-13",
-    Released: "07 Nov 2014",
-    Runtime: "169 min",
-    Genre: "Adventure, Drama, Sci-Fi",
-    Director: "Christopher Nolan",
-    Writer: "Jonathan Nolan, Christopher Nolan",
-    Actors: "Ellen Burstyn, Matthew McConaughey, Mackenzie Foy, John Lithgow",
-    Plot: "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
-    Language: "English",
-    Country: "USA, UK",
-    Awards: "Won 1 Oscar. Another 39 wins & 132 nominations.",
-    Poster:
-      "http://ia.media-imdb.com/images/M/MV5BMjIxNTU4MzY4MF5BMl5BanBnXkFtZTgwMzM4ODI3MjE@._V1_SX300.jpg",
-    Metascore: "74",
-    imdbRating: "8.6",
-    imdbVotes: "910,366",
-    imdbID: "tt0816692",
-    Type: "movie",
-    Response: "True",
-  },
-  {
-    Title: "The Dark Knight",
-    Year: "2008",
-    Rated: "PG-13",
-    Released: "18 Jul 2008",
-    Runtime: "152 min",
-    Genre: "Action, Adventure, Crime",
-    Director: "Christopher Nolan",
-    Writer:
-      "Jonathan Nolan (screenplay), Christopher Nolan (screenplay), Christopher Nolan (story), David S. Goyer (story), Bob Kane (characters)",
-    Actors: "Christian Bale, Heath Ledger, Aaron Eckhart, Michael Caine",
-    Plot: "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, the caped crusader must come to terms with one of the greatest psychological tests of his ability to fight injustice.",
-    Language: "English, Mandarin",
-    Country: "USA, UK",
-    Awards: "Won 2 Oscars. Another 146 wins & 142 nominations.",
-    Poster:
-      "http://ia.media-imdb.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SX300.jpg",
-    Metascore: "82",
-    imdbRating: "9.0",
-    imdbVotes: "1,652,832",
-    imdbID: "tt0468569",
-    Type: "movie",
-    Response: "True",
-  },
-  {
-    Title: "Batman Begins",
-    Year: "2005",
-    Rated: "PG-13",
-    Released: "15 Jun 2005",
-    Runtime: "140 min",
-    Genre: "Action, Adventure",
-    Director: "Christopher Nolan",
-    Writer:
-      "Bob Kane (characters), David S. Goyer (story), Christopher Nolan (screenplay), David S. Goyer (screenplay)",
-    Actors: "Christian Bale, Michael Caine, Liam Neeson, Katie Holmes",
-    Plot: "After training with his mentor, Batman begins his fight to free crime-ridden Gotham City from the corruption that Scarecrow and the League of Shadows have cast upon it.",
-    Language: "English, Urdu, Mandarin",
-    Country: "USA, UK",
-    Awards: "Nominated for 1 Oscar. Another 15 wins & 66 nominations.",
-    Poster:
-      "http://ia.media-imdb.com/images/M/MV5BNTM3OTc0MzM2OV5BMl5BanBnXkFtZTYwNzUwMTI3._V1_SX300.jpg",
-    Metascore: "70",
-    imdbRating: "8.3",
-    imdbVotes: "972,584",
-    imdbID: "tt0372784",
-    Type: "movie",
-    Response: "True",
-  },
-  {
-    Title: "Avatar",
-    Year: "2009",
-    Rated: "PG-13",
-    Released: "18 Dec 2009",
-    Runtime: "162 min",
-    Genre: "Action, Adventure, Fantasy",
-    Director: "James Cameron",
-    Writer: "James Cameron",
-    Actors: "Sam Worthington, Zoe Saldana, Sigourney Weaver, Stephen Lang",
-    Plot: "A paraplegic marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.",
-    Language: "English, Spanish",
-    Country: "USA, UK",
-    Awards: "Won 3 Oscars. Another 80 wins & 121 nominations.",
-    Poster:
-      "http://ia.media-imdb.com/images/M/MV5BMTYwOTEwNjAzMl5BMl5BanBnXkFtZTcwODc5MTUwMw@@._V1_SX300.jpg",
-    Metascore: "83",
-    imdbRating: "7.9",
-    imdbVotes: "876,575",
-    imdbID: "tt0499549",
-    Type: "movie",
-    Response: "True",
-  },
-];
+///////////////////////////// 7. CAS //////////////////////////////////////////////
+// const watchList = [
+//   {
+//     Title: "Inception",
+//     Year: "2010",
+//     Rated: "PG-13",
+//     Released: "16 Jul 2010",
+//     Runtime: "148 min",
+//     Genre: "Action, Adventure, Crime",
+//     Director: "Christopher Nolan",
+//     Writer: "Christopher Nolan",
+//     Actors: "Leonardo DiCaprio, Joseph Gordon-Levitt, Elliot Page, Tom Hardy",
+//     Plot: "A thief, who steals corporate secrets through use of dream-sharing technology, is given the inverse task of planting an idea into the mind of a CEO.",
+//     Language: "English, Japanese, French",
+//     Country: "USA, UK",
+//     Awards: "Won 4 Oscars. Another 143 wins & 198 nominations.",
+//     Poster:
+//       "http://ia.media-imdb.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SX300.jpg",
+//     Metascore: "74",
+//     imdbRating: "8.8",
+//     imdbVotes: "1,446,708",
+//     imdbID: "tt1375666",
+//     Type: "movie",
+//     Response: "True",
+//   },
+//   {
+//     Title: "Interstellar",
+//     Year: "2014",
+//     Rated: "PG-13",
+//     Released: "07 Nov 2014",
+//     Runtime: "169 min",
+//     Genre: "Adventure, Drama, Sci-Fi",
+//     Director: "Christopher Nolan",
+//     Writer: "Jonathan Nolan, Christopher Nolan",
+//     Actors: "Ellen Burstyn, Matthew McConaughey, Mackenzie Foy, John Lithgow",
+//     Plot: "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+//     Language: "English",
+//     Country: "USA, UK",
+//     Awards: "Won 1 Oscar. Another 39 wins & 132 nominations.",
+//     Poster:
+//       "http://ia.media-imdb.com/images/M/MV5BMjIxNTU4MzY4MF5BMl5BanBnXkFtZTgwMzM4ODI3MjE@._V1_SX300.jpg",
+//     Metascore: "74",
+//     imdbRating: "8.6",
+//     imdbVotes: "910,366",
+//     imdbID: "tt0816692",
+//     Type: "movie",
+//     Response: "True",
+//   },
+//   {
+//     Title: "The Dark Knight",
+//     Year: "2008",
+//     Rated: "PG-13",
+//     Released: "18 Jul 2008",
+//     Runtime: "152 min",
+//     Genre: "Action, Adventure, Crime",
+//     Director: "Christopher Nolan",
+//     Writer:
+//       "Jonathan Nolan (screenplay), Christopher Nolan (screenplay), Christopher Nolan (story), David S. Goyer (story), Bob Kane (characters)",
+//     Actors: "Christian Bale, Heath Ledger, Aaron Eckhart, Michael Caine",
+//     Plot: "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, the caped crusader must come to terms with one of the greatest psychological tests of his ability to fight injustice.",
+//     Language: "English, Mandarin",
+//     Country: "USA, UK",
+//     Awards: "Won 2 Oscars. Another 146 wins & 142 nominations.",
+//     Poster:
+//       "http://ia.media-imdb.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SX300.jpg",
+//     Metascore: "82",
+//     imdbRating: "9.0",
+//     imdbVotes: "1,652,832",
+//     imdbID: "tt0468569",
+//     Type: "movie",
+//     Response: "True",
+//   },
+//   {
+//     Title: "Batman Begins",
+//     Year: "2005",
+//     Rated: "PG-13",
+//     Released: "15 Jun 2005",
+//     Runtime: "140 min",
+//     Genre: "Action, Adventure",
+//     Director: "Christopher Nolan",
+//     Writer:
+//       "Bob Kane (characters), David S. Goyer (story), Christopher Nolan (screenplay), David S. Goyer (screenplay)",
+//     Actors: "Christian Bale, Michael Caine, Liam Neeson, Katie Holmes",
+//     Plot: "After training with his mentor, Batman begins his fight to free crime-ridden Gotham City from the corruption that Scarecrow and the League of Shadows have cast upon it.",
+//     Language: "English, Urdu, Mandarin",
+//     Country: "USA, UK",
+//     Awards: "Nominated for 1 Oscar. Another 15 wins & 66 nominations.",
+//     Poster:
+//       "http://ia.media-imdb.com/images/M/MV5BNTM3OTc0MzM2OV5BMl5BanBnXkFtZTYwNzUwMTI3._V1_SX300.jpg",
+//     Metascore: "70",
+//     imdbRating: "8.3",
+//     imdbVotes: "972,584",
+//     imdbID: "tt0372784",
+//     Type: "movie",
+//     Response: "True",
+//   },
+//   {
+//     Title: "Avatar",
+//     Year: "2009",
+//     Rated: "PG-13",
+//     Released: "18 Dec 2009",
+//     Runtime: "162 min",
+//     Genre: "Action, Adventure, Fantasy",
+//     Director: "James Cameron",
+//     Writer: "James Cameron",
+//     Actors: "Sam Worthington, Zoe Saldana, Sigourney Weaver, Stephen Lang",
+//     Plot: "A paraplegic marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.",
+//     Language: "English, Spanish",
+//     Country: "USA, UK",
+//     Awards: "Won 3 Oscars. Another 80 wins & 121 nominations.",
+//     Poster:
+//       "http://ia.media-imdb.com/images/M/MV5BMTYwOTEwNjAzMl5BMl5BanBnXkFtZTcwODc5MTUwMw@@._V1_SX300.jpg",
+//     Metascore: "83",
+//     imdbRating: "7.9",
+//     imdbVotes: "876,575",
+//     imdbID: "tt0499549",
+//     Type: "movie",
+//     Response: "True",
+//   },
+// ];
 
 // const nolanMovies = watchList.filter(
 //   (el) => el.Director === "Christopher Nolan"
@@ -765,7 +765,7 @@ const watchList = [
 //   (prev, curr) => +prev + +curr / nolanRatings.length
 // );
 
-const mockData = [1, 23, 5645, 767, 657, 455, 34543];
+// const mockData = [1, 23, 5645, 767, 657, 455, 34543];
 // console.log(sum);
 
 // const customMovieFunction = (movieArray) => {
@@ -841,51 +841,243 @@ const mockData = [1, 23, 5645, 767, 657, 455, 34543];
 // console.log("33" * 3);
 
 // function reversingNames(name1, name2) {
-// for (let i = name2.length - 1; i >= 0; i--) {
+//   for (let i = name2.length - 1; i >= 0; i--) {
 //     if (name1[i]) console.log(name1[i], i);
 //     console.log(name2[i], i);
+//   }
 // }
-// }
-// reversingNames("nerma", "aldinaaaaaaaaaaaaaaaaaaaa");
+// reversingNames("nerma", "aldin");
+//////////////////////////////////////////////// 8. CAS /////////////////////////////////////////////////////
+/* 
+4. Zadatak
+Kvadrirati one brojeve koje imaju index 0,3,5.
+6. Zadatak
+Napraviti novi niz koji filtrira postojeci i vraca novi sa parnim elementima.
+8. Zadatak
+Napraviti novi niz koji filtrira postojeci i vraca novi sa onim elementima cija
+je duzina >= 6.
+9. Zadatak
+Napraviti novi niz koji filtrira postojeci i vraca novi sa onim elementima ciji je tip "boolean';.
+const booleans = [true, false, true, false];
+11. Zadatak
+Sabrati sve godine tj. elemente niza a nakon toga podeliti sa brojem elemenata.
+tj. vratiti prosecnu starost godina.
+*/
 
+// Prvi deo. Napraviti pomocni niz koji ce sadrzati elemente od oba niza.
+// Drugi deo. Napraviti jos jedan pomocni niz koji ce iz prvog dodatnog niza uzeti parne brojeve.
+// Treci deo. U drugom pomocnom nizu umetnuti na prva dva mesta 10 i 20.
+// Funkcija na kraju treba da vrati dva napravljena pomocna niza.
 
+// const DATA1 = [2, 26, 38, 75, 11, 29];
+// const DATA2 = [4, 6, 5, 10, 33, 52, 75];
+// const DATA3 = [5, 1, 12, 83, 80, 96, 100];
+// const DATA4 = [3, 1, 2, 62, 44, 17, 5];
+// const DATA5 = [4, 6, 5, 10, 33, 52, 75];
 
+// const firstAssignment = (array1, array2) => {
+//   const combined = array1.concat(array2); // [..array1, ...array2]
+//   const filteredArray = combined.filter((el) => el % 2 === 0);
+//   filteredArray.unshift(10, 20);
+//   return { combined, filteredArray };
+// };
 
-// 1. Zadatak
-// const data1 = [2,26,38,75,11,29]
-// const data2 = [4,6,5,10,33,52,75]
-// let combined = data1.concat(data2)
-// console.log(combined)
-// combined.unshift(10,20)
-// let parnib = combined.filter(number => number % 2 === 0)
-// console.log(parnib)
+// console.log(firstAssignment(DATA3, DATA4));
 
 // 2. Zadatak
-// const number = [2,5,10,3,4,8]
-// const powfunction = (array) => {
-    // let pownm= array.map((el) => el*el)
-// return pownm
+// Napraviti novi niz koji sadrzi kvadrate elemenata postojeceg niza:
+// const numbers2 = [2, 5, 10, 3, 4, 8];
+
+// const powNumbers = (array) => {
+// let powedNumbers = array.map((el) => el * el);
+// return powedNumbers;
+// return array.map((el) => el * el);
 // };
-// console.log(powfunction(number))
+
+// function powNumber(el) {
+//   return el * el;
+// }
+// const shortPow = (array) => array.map(powNumber);
+
+// console.log(shortPow(numbers2));
+
+// () => clgklasjdklasjdklasjdkasjdk, asjdklasdjklsa;
 
 // 3. Zadatak
-// const numbers = [4,9,16,25,36] 
-// Math.sqrt
-// let sqnm= numbers.map((el) =>Math.sqrt (el));
-// console.log(sqnm)
+// Napraviti novi niz koji sadrzi kvadratne korene elemenata postojeceg niza.
 
-// 4. Zadatak
-const numbers = [3,5,10,13,22,523,11,4,6,16,19]
-const Function = (array) => {
-    const newArray = array.map((el) => {
-        if (el > 2 && el < 8){
-        return(el *4/2);
-        }else if (el > 2){
-            return(el * 7);
-        };
-        
-    });
-    const newArray2 = array.filter((el) => el > 10);
-    return (newArray,newArray2)
-}
-console.log(Function(numbers))
+// const numbers = [4, 9, 16, 25, 36];
+
+// Math.sqrt();
+
+// const squareNumbers = (array) => array.map((el) => Math.sqrt(el));
+
+// console.log(numbers);
+// console.log(squareNumbers(numbers));
+
+// 5. Zadatak
+// Napraviti funkciju koja pravi niz koji ce iz postojeceg napraviti novi uz ispunjenje uslova:
+// value > 2 => value * 7
+// value >2 and value <8 => (value*4)/2
+// Ostale vrednosti da ne uzima u obzir
+// I na kraju treba novi niz vratiti sa godinama >10.
+
+// const numbers = [3, 5, 10, 13, 22, 523, 10, 4, 6, 16, 19];
+
+// const customAssignment = (array) => {
+//   let result = array.map((el) => {
+//     if (el > 2) return el * 7;
+//     else if (el > 2 && el < 8) return (el * 4) / 2;
+//   });
+// };
+
+// 7. Zadatak
+// Napraviti novi niz koji filtrira postojeci i vraca novi sa onim elementima starog niza,
+// gde je drugo slovo e.
+
+// ["t", "e", "l", "e", "f", "o", "n"];
+
+// const words = ["televizor", "daljinski", "telefon", "voda", "ranac", "stolica"];
+
+// const secondLetterE = (array) => array.filter((el) => el[1] === "e");
+// console.log(secondLetterE(words));
+
+// 13. Zadatak
+// From the array of numbers, choose even ,double even numbers and
+// compute the sum using Array's filter, map and reduce methods.
+
+// const arrayExample = [3, 6, 10, 82, 93, 105, 42, 28, 52];
+
+// const comination = (array) => {
+//   const filtered = array.filter((el) => el % 2 === 0);
+//   const doubled = filtered.map((el) => el * 2);
+//   const suma = doubled.reduce((prev, curr) => prev * curr);
+//   return suma;
+// };
+
+// // console.log(comination(arrayExample));
+
+// const niz = [5, 4, 7, 5];
+
+// console.log(niz.reduce((prev, curr) => prev * curr));
+
+// 12. Zadatak
+// Write a function that converts an array of values from miles to kilometres using the map method.
+// In the end, add the kilometres up in a new variable called "totalDistanceInKilometers"; and
+// return this variable.
+
+// const niz = [73, 100, 88, 105, 110, 200];
+
+// const milesToKm = (array) => {
+//   const kilometres = array.map((mile) => mile * 1.61);
+//   const totalDistanceInKilometers = kilometres.reduce(
+//     (prev, curr) => prev + curr
+//   );
+
+//   return totalDistanceInKilometers;
+// };
+
+// // const noviNiz = milesToKm(niz);
+// const nekiDrugiNiz = milesToKm;
+// console.log(nekiDrugiNiz(niz));
+// // console.log(Math.floor(noviNiz));
+
+// 10. Zadatak
+// Preko funkcije napraviti niz koji se sastoji iz parnih brojeva manjih ili jednakih od n.
+
+// const arrayExample = [3, 6, 10, 82, 93, 105, 42, 28, 52, 50, 51, 22, 83];
+
+// const lowEvenNumbers = (array, n) =>
+//   array.filter((el) => el % 2 === 0 && el <= n);
+
+// console.log(lowEvenNumbers(arrayExample, 100));
+
+/// DOMACI ZADATAK///////////////////////////
+
+// 14. Zadatak
+// Iz niza elemenata izracunati sumu parnih brojeva niza.
+// ////////////////////////////////////////////////////////////////
+//  2. Zadatak
+// Napraviti funkciju koja ispituje neki niz (argument).
+// Ako produkt ima u zalihama vise od 20 treba:
+// Treba datom produktu smanjiti cenu za 20%
+// Ako produkt ima u zalihama vise od 40 treba:
+// Treba datom produktu smanjiti cenu za 40%
+// U slucaju da u zalihama ima 20 i manje kolicine,
+// cena se ne menja.
+
+// const products = [
+//   {
+//     id: 1,
+//     name: "ARSENAL 22/23 HOME JERSEY",
+//     price: 50,
+//     imgUrl:
+//       "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/450ddf1b5943474fa472ae25009dfed0_9366/ARSENAL_22-23_HOME_JERSEY_Y_Red_HA5339_01_laydown.jpg",
+//     currency: "EUR",
+//     quantity: 41,
+//   },
+//   {
+//     id: 2,
+//     name: "ARSENAL CONDIVO 22 TRAINING TOP",
+//     price: 65,
+//     imgUrl:
+//       "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/32f9a996849147b284c1ae94009678a1_9366/Arsenal_Condivo_22_Training_Top_Blue_HC1252_01_laydown.jpg",
+//     currency: "EUR",
+//     quantity: 12,
+//   },
+//   {
+//     id: 3,
+//     name: "ARSENAL BEANIE",
+//     price: 23,
+//     imgUrl:
+//       "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/d8589fb63d02499db805ae7a00cf5273_9366/Arsenal_Beanie_Black_HM9965_01_standard.jpg",
+//     currency: "EUR",
+//     quantity: 7,
+//   },
+//   {
+//     id: 4,
+//     name: "ARSENAL ANTHEM JACKET",
+//     price: 120,
+//     imgUrl:
+//       "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/2db81ab8d14d4817a659ae8c01155d2e_9366/Arsenal_Anthem_Jacket_Blue_HF4030_21_model.jpg",
+//     currency: "EUR",
+//     quantity: 36,
+//   },
+//   {
+//     id: 5,
+//     name: "ARSENAL TRAVEL HOODIE",
+//     price: 85,
+//     imgUrl:
+//       "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/44d076827f3d4ea08c6bae85012f97bc_9366/Arsenal_Travel_Hoodie_Black_HF4031_01_laydown.jpg",
+//     currency: "EUR",
+//     quantity: 0,
+//   },
+//   {
+//     id: 6,
+//     name: "ARSENAL FC 93-94 JERSEY",
+//     price: 85,
+//     imgUrl:
+//       "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/edf2037f434d46479c96adbd0085ce75_9366/Arsenal_FC_93-94_Jersey_Yellow_HK5626_01_laydown.jpg",
+//     currency: "EUR",
+//     quantity: 68,
+//   },
+//   {
+//     id: 7,
+//     name: "ARSENAL DNA CAP",
+//     price: 23,
+//     imgUrl:
+//       "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/80b51f1feee344479c1eae760142da56_9366/Arsenal_DNA_Cap_Black_HM9968_01_standard.jpg",
+//     currency: "EUR",
+//     quantity: 4,
+//   },
+//   {
+//     id: 8,
+//     name: "ARSENAL TRAVEL BACKPACK",
+//     price: 65,
+//     imgUrl:
+//       "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/c7371783770f41e98afeae9a00a5a2c1_9366/Arsenal_Travel_Backpack_Black_HM9967_01_standard.jpg",
+//     currency: "EUR",
+//     quantity: 14,
+//   },
+// ];
+
