@@ -1080,4 +1080,84 @@ tj. vratiti prosecnu starost godina.
 //     quantity: 14,
 //   },
 // ];
+// console.log("ima");
 
+// let x;
+// console.log(x);
+
+// x = 10;
+
+// console.log(x);
+// var x = 10;
+
+// var y;
+// y = 10;
+
+// console.log(squareFn(3));
+
+// function squareFn(n) {
+//   return n * n;
+// }
+
+// console.log(squareConst(4));
+
+// var squareConst = (n) => {
+//   return n * n;
+// };
+
+// const first = {
+//     // name: "key",
+//     key: "value",
+//     phone: "xaomi",
+//     town: "Novi Pazar",
+//     anotherObject: {
+//     tv: "samsung",
+//     laptop: "acer",
+//     sayAnotherHello() {
+//         console.log(this.laptop);
+//     },
+//     },
+// };
+// const customObject = {
+//     key: "value",
+//     name: "aldin",
+//     age: 21,
+//     knowledge: {
+//     javascript: "good",
+//     html: "good",
+//     css() {
+//         console.log(this);
+//     },
+//     advanced: {
+//         react: "good",
+//         typescript: "solid",
+//         reactnative: "beginner",
+//         josJedan: {
+//         paJosJedan: {
+//             onda: {
+//             poslednji: "nesto",
+//             },
+//             sayHello(){
+//                 console.log(this)
+//             }
+//         },
+//         },
+//     },
+//     },
+// };
+function moreUppercase(str) {
+    let upperCount = 0;
+    let lowerCount = 0;
+    for (let i = 0; i < str.length; i++) {
+    if (str[i] === str[i].toUpperCase()) {
+        upperCount++;
+    } else {
+        lowerCount++;
+    }
+    }
+    return `Malih slova ima ${lowerCount},a velikih ${upperCount}`
+}
+
+console.log(moreUppercase("Ako JA SAD ovako PISEM koliko ce MALIH slova DA ima"));
+console.log(moreUppercase("hello world"));
+console.log(moreUppercase("HeLLo WOrld"));
